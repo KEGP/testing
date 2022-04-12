@@ -1,7 +1,6 @@
 @prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
 @prefix ex: <https://raw.githubusercontent.com/KEGP/testing/main/artist/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix our: <https://www.unibo.it/ontologies/metadata/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 ex:artistcq.ttl a owlunit:CompetencyQuestionVerification ;
