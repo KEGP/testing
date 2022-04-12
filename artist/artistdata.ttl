@@ -3,3 +3,4 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 artist:82eb0cc2-84be-44b2-8b5d-543e3a1a4003 rdf:type our:Band .
+artist:82eb0cc2-84be-44b2-8b5d-543e3a1a4003 our:hasName "The Benny Goodman Sextet" .
