@@ -9,4 +9,4 @@ ex:artistcq-literal.ttl a owlunit:CompetencyQuestionVerification ;
 	owlunit:hasInputData ex:artistdata.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
   owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"name\" ] } ,  \"results\": {  \"bindings\": [ {  \"name\": {  \"type\":  \"literal\" ,  \"value\":  \"The Benny Goodman Sextet\" } } ] } }";
-  owlunit:testsOntology our: .
+  owlunit:testsOntology rdf: .
