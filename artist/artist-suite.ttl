@@ -1,0 +1,8 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+
+ex:artist-suite.ttl a owlunit:TestSuite ;
+    owlunit:hasTestCase ex:artistcq.ttl;
+    owlunit:hasTestCase ex:artistcq-literal.ttl .
+
+ex:artistcq.ttl a owlunit:CompetencyQuestionVerification .
+ex:artistcq-literal.ttl a owlunit:CompetencyQuestionVerification .
