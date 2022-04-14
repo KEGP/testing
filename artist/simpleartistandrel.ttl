@@ -33,3 +33,74 @@
         :hasName           "The Benny Goodman Sextet" ;
         :hasSortName       "Goodman, Benny, Sextet, The" ;
         :hasURL            "https://genius.com/artists/Benny-goodman-sextet" , "https://www.discogs.com/artist/311730" , "https://www.imdb.com/name/nm1830861/" .
+
+<https://www.unibo.it/ontologies/metadata/resource/Artist/209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee>
+        rdf:type           :Band ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "The Jazz Messengers" ;
+                             :hasSortName  "The Jazz Messengers"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakey And The Jazz Messengers" ;
+                             :hasSortName  "Art Blakey And The Jazz Messengers"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakey and The Jazz Messen" ;
+                             :hasSortName  "Art Blakey and The Jazz Messen"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakey and the Messangers" ;
+                             :hasSortName  "Art Blakey and the Messangers"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakely and His Jazz Messengers" ;
+                             :hasSortName  "Art Blakely and His Jazz Messengers"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakely And The Jazz Messengers" ;
+                             :hasSortName  "Art Blakely And The Jazz Messengers"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakey and the Messengers" ;
+                             :hasSortName  "Art Blakey and the Messengers"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakey & The Jazz Messenge" ;
+                             :hasSortName  "Art Blakey & The Jazz Messenge"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakey's Messengers" ;
+                             :hasSortName  "Art Blakey's Messengers"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakey's Jazz Messengers" ;
+                             :hasSortName  "Art Blakey's Jazz Messengers"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blankey's Jazz Messengers & Thelonious Monk" ;
+                             :hasSortName  "Art Blankey's Jazz Messengers & Thelonious Monk"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakey & The Messengers" ;
+                             :hasSortName  "Art Blakey & The Messengers"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Art Blakey And His Jazz Messengers" ;
+                             :hasSortName  "Art Blakey And His Jazz Messengers"
+                           ] ;
+        :hasAlias          [ rdf:type      :Alias ;
+                             :hasName      "Jazz Messengers" ;
+                             :hasSortName  "Jazz Messengers"
+                           ] ;
+        :hasCountry        "US" ;
+        :hasMainArea       <https://www.unibo.it/ontologies/metadata/resource/Place/489ce91b-6658-3307-9877-795b68554c98> ;
+        :hasMusicBrainzID  "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee" ;
+        :hasName           "Art Blakey & The Jazz Messengers" ;
+        :hasSortName       "Blakey, Art & Jazz Messengers, The" ;
+        :hasURL            "https://www.allmusic.com/artist/mn0000811692" , "https://www.setlist.fm/setlists/art-blakey-and-the-jazz-messengers-3d6b54b.html" , "https://www.last.fm/music/Art+Blakey+&+The+Jazz+Messengers" , "https://www.discogs.com/artist/262128" , "https://www.allmusic.com/artist/mn0000597266" , "https://rateyourmusic.com/artist/the_jazz_messengers" , "https://open.spotify.com/artist/6ykfXAed2KOLOMI3R0TZdz" , "https://www.wikidata.org/wiki/Q1684482" .
+
+<https://www.unibo.it/ontologies/metadata/resource/Place/489ce91b-6658-3307-9877-795b68554c98>
+        rdf:type           :Place ;
+        :hasMusicBrainzID  "489ce91b-6658-3307-9877-795b68554c98" ;
+        :hasName           "United States" ;
+        :hasSortName       "United States" .
