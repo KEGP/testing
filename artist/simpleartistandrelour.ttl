@@ -1,0 +1,35 @@
+@prefix our:  <https://www.unibo.it/ontologies/metadata/> .
+@prefix fx:   <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ti:   <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:  <http://sparql.xyz/facade-x/data/> .
+
+<https://www.unibo.it/ontologies/metadata/resource/Artist/82eb0cc2-84be-44b2-8b5d-543e3a1a4003>
+        rdf:type           our:Band ;
+        our:hasAlias          [ rdf:type      our:Alias ;
+                             our:hasName      "Benny Goodman Sextet" ;
+                             our:hasSortName  "Benny Goodman Sextet"
+                           ] ;
+        our:hasAlias          [ rdf:type      our:Alias ;
+                             our:hasName      "Benny Goodman and His Sextet" ;
+                             our:hasSortName  "Benny Goodman and His Sextet"
+                           ] ;
+        our:hasAlias          [ rdf:type      our:Alias ;
+                             our:hasName      "Benny Goodman & His Sextet" ;
+                             our:hasSortName  "Benny Goodman & His Sextet"
+                           ] ;
+        our:hasAlias          [ rdf:type      our:Alias ;
+                             our:hasName      "Bennie Goodman Sextet" ;
+                             our:hasSortName  "Bennie Goodman Sextet"
+                           ] ;
+        our:hasAlias          [ rdf:type      our:Alias ;
+                             our:hasName      "Benny Goodman and his Sextet" ;
+                             our:hasSortName  "Benny Goodman and his Sextet"
+                           ] ;
+        our:hasMusicBrainzID  "82eb0cc2-84be-44b2-8b5d-543e3a1a4003" ;
+        our:hasName           "The Benny Goodman Sextet" ;
+        our:hasSortName       "Goodman, Benny, Sextet, The" ;
+        our:hasURL            "https://genius.com/artists/Benny-goodman-sextet" , "https://www.discogs.com/artist/311730" , "https://www.imdb.com/name/nm1830861/" .
