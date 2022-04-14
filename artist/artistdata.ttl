@@ -4,3 +4,4 @@
 
 artist:82eb0cc2-84be-44b2-8b5d-543e3a1a4003 rdf:type our:Band .
 artist:82eb0cc2-84be-44b2-8b5d-543e3a1a4003 our:hasName "The Benny Goodman Sextet" .
+artist:82eb0cc2-84be-44b2-8b5d-543e3a1a4002 our:hasName "Jhonny Cash" .
