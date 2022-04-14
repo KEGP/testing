@@ -5,7 +5,7 @@
 
 ex:artistcqonsimpler.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "What is the name of the Artist?" ;
- 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  @prefix : <https://www.unibo.it/ontologies/metadata/>  SELECT DISTINCT ?rdftype {?artist rdf:type ?rdftype. ?artist :hasMusicBrainzID "82eb0cc2-84be-44b2-8b5d-543e3a1a4003"}" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX : <https://www.unibo.it/ontologies/metadata/>  SELECT DISTINCT ?rdftype WHERE {?artist rdf:type ?rdftype . ?artist :hasMusicBrainzID "82eb0cc2-84be-44b2-8b5d-543e3a1a4003" }" ;
 	owlunit:hasInputData ex:simpleartistandrel.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
   owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"rdftype\" ] } ,  \"results\": {  \"bindings\": [ {  \"rdftype\": {  \"type\":  \"uri\" ,  \"value\":  \"https://www.unibo.it/ontologies/metadata/Band\" } } ] } }";
