@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix ex: <.> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:cq_usedchords.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Which are the chord that composes the tune?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX : <https://example.org/ontology/chord-annotations#> SELECT DISTINCT ?chordType WHERE { ?bar :hasChord ?chord . ?chord rdf:type ?chordType . }";
+	owlunit:hasInputData ex:data.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+  owlunit:hasExpectedResult "{\"results\": {\"bindings\": [{\"chordType\": {\"type\": \"uri\", \"value\": \"http://purl.org/ontology/chord/symbol/C:(3,5,b7,#9)\"}}, {\"chordType\": {\"type\": \"uri\", \"value\": \"http://purl.org/ontology/chord/symbol/Eb:(b3,5,b7,11)\"}}, {\"chordType\": {\"type\": \"uri\", \"value\": \"http://purl.org/ontology/chord/symbol/F:(b3,5,b7,11)\"}}, {\"chordType\": {\"type\": \"uri\", \"value\": \"http://purl.org/ontology/chord/symbol/F:7\"}}, {\"chordType\": {\"type\": \"uri\", \"value\": \"http://purl.org/ontology/chord/symbol/Bb:min7\"}}, {\"chordType\": {\"type\": \"uri\", \"value\": \"http://purl.org/ontology/chord/symbol/F:min\"}}, {\"chordType\": {\"type\": \"uri\", \"value\": \"http://purl.org/ontology/chord/symbol/C:(b3,5,b7,11)\"}}, {\"chordType\": {\"type\": \"uri\", \"value\": \"http://purl.org/ontology/chord/symbol/Bb:min\"}}, {\"chordType\": {\"type\": \"uri\", \"value\": \"http://purl.org/ontology/chord/symbol/F:min7\"}}]}, \"head\": {\"vars\": [\"chordType\"]}}" ;
+  owlunit:testsOntology rdf: .

@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix ex: <.> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:cq_sections.ttl a owlunit:CompetencyQuestionVerification ;
+ 	owlunit:hasCompetencyQuestion "Which sections is the tune composed of?" ;
+ 	owlunit:hasSPARQLUnitTest "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX : <https://example.org/ontology/chord-annotations#> SELECT ?sectionName WHERE { ?x rdf:type :Section . ?x :hasName ?sectionName }";
+	owlunit:hasInputData ex:data.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+  owlunit:hasExpectedResult "{\"results\": {\"bindings\": [{\"sectionName\": {\"type\": \"literal\", \"value\": \"Trumpet Solo - ABAC\"}}, {\"sectionName\": {\"type\": \"literal\", \"value\": \"Ensemble, Percussion Solo - ABAC\"}}, {\"sectionName\": {\"type\": \"literal\", \"value\": \"Coda\"}}, {\"sectionName\": {\"type\": \"literal\", \"value\": \"Head - ABAC\"}}, {\"sectionName\": {\"type\": \"literal\", \"value\": \"Trombone Solo - ABAC\"}}, {\"sectionName\": {\"type\": \"literal\", \"value\": \"Intro\"}}, {\"sectionName\": {\"type\": \"literal\", \"value\": \"Tenor Sax Solo - ABAC\"}}]}, \"head\": {\"vars\": [\"sectionName\"]}}" ;
+  owlunit:testsOntology rdf: .
