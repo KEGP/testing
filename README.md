@@ -6,9 +6,9 @@ run test suite with -s
 
 ## with owl-unit
 run test case with -c:  
-`java -jar OWLUnit-0.3.2.jar -c https://raw.githubusercontent.com/KEGP/testing/main/artist/artistcq.ttl`
+`java -jar OWLUnit-0.3.2.jar -c https://raw.githubusercontent.com/KEGP/testing/main/artist/cq_alias.ttl`
 
 run test suite with -s:  
-`java -jar OWLUnit-0.3.2.jar -s https://raw.githubusercontent.com/KEGP/testing/main/artist/artist-suite.ttl`
+`java -jar OWLUnit-0.3.2.jar -s https://raw.githubusercontent.com/KEGP/testing/main/artist/suite.ttl`
 
 
