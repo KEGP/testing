@@ -1,7 +1,7 @@
 # testing
 
 ## with pyownunit
-run test suite with -s
+run test suite with -s  
 `python pyowlunit/pyowlunit.py -s https://raw.githubusercontent.com/KEGP/testing/main/artist/suite.ttl -f turtle`
 
 ## with owl-unit
