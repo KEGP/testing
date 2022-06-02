@@ -7,7 +7,9 @@ ex:suite.ttl a owlunit:TestSuite ;
     owlunit:hasTestCase ex:cq_mainarea.ttl;
     owlunit:hasTestCase ex:cq_alias.ttl ;
     owlunit:hasTestCase ex:cq_relationtypes.ttl .
+    owlunit:hasTestCase ex:ep.ttl .
 
 ex:cq_mainarea.ttl a owlunit:CompetencyQuestionVerification .
 ex:cq_alias.ttl a owlunit:CompetencyQuestionVerification .
 ex:cq_relationtypes.ttl  a owlunit:CompetencyQuestionVerification .
+ex:ep.ttl a owlunit:ErrorProvocation .
